@@ -3,9 +3,19 @@
   padding: 0px;
 }
 
+body{
+  background-image: url(../IMAGENS/fundo3.jpg);
+}
 
 input{
   display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid back;
+  font-size: 16pt;
+  padding: 10px 20px;
 }
 div#corpo-form{
   background-color: red;
