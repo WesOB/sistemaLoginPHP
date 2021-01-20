@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="CSS/estilo.css">
   </head>
   <body>
-    <div id="corpo-form">
+    <div id="corpo-form-cad">
       <form class="" action="processa.php" method="post">
         <h1>Cadastrar</h1>
         <input type="text" name="" value="" placeholder="Nome Completo">

@@ -28,14 +28,18 @@ input{
 div#corpo-form{
   /* background-color: red; */
   width: 420px;
-  margin: 150px auto 0px auto;
+  margin: 130px auto 0px auto;
+}
+div#corpo-form-cad{
+  /* background-color: red; */
+  width: 420px;
+  margin: 100px auto 0px auto;
 }
 
-div#corpo-form h1{
+div#corpo-form h1, div#corpo-form-cad h1{
   text-align: center;
   padding: 20px;
 }
-
 a{
   color: white;
   text-decoration: none;
