@@ -50,6 +50,7 @@ a:hover{
 input[type=submit]{
   background-color: #FF0066;
   border: none;
+  cursor: pointer;
 
 }
 
