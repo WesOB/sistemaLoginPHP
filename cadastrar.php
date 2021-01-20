@@ -7,15 +7,20 @@
   </head>
   <body>
     <div id="corpo-form-cad">
-      <form class="" action="processa.php" method="post">
+      <form class="" method="post">
         <h1>Cadastrar</h1>
-        <input type="text" name="" value="" placeholder="Nome Completo">
-        <input type="text" name="" value="" placeholder="Telefone">
-        <input type="email" name="" value="" placeholder="Usuário">
-        <input type="password" name="" value="" placeholder="Senha">
-        <input type="password" name="" value="" placeholder="Confirmar senha">
-        <input type="submit" name="" value="CADASTRAR">
+        <input type="text" name="nome" value="" placeholder="Nome Completo" maxlength="30">
+        <input type="text" name="telefone" value="" placeholder="Telefone" maxlength="30">
+        <input type="email" name="email" value="" placeholder="Usuário" maxlength="40">
+        <input type="password" name="senha" value="" placeholder="Senha" maxlength="15">
+        <input type="password" name="confsenha" value="" placeholder="Confirmar senha"  maxlength="15">
+        <input type="submit" value="CADASTRAR">
       </form>
     </div>
+    <?php
+
+
+
+    ?>
   </body>
 </html>
