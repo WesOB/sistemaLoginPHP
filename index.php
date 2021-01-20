@@ -12,7 +12,7 @@
         <input type="email" name="" value="" placeholder="Usuário">
         <input type="password" name="" value="" placeholder="Senha">
         <input type="submit" name="" value="ACESSAR">
-        <a href="#">Ainda não é inscrito <strong>Cadastre-se!</strong></a>
+        <a href="cadastrar.php ?>">Ainda não é inscrito <strong>Cadastre-se!</strong></a>
       </form>
     </div>
   </body>
