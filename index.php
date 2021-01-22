@@ -1,7 +1,7 @@
 <?php
-  require_once 'usuarios.php';
+  require_once 'classes/usuarios.php';
 
-  $u = new Usuário;
+  $u = new Usuario;
 
 ?>
 <!DOCTYPE html>
@@ -30,7 +30,7 @@
         $u->conectar("projeto_login", "localhost", "root", "");
         if ($u->msgErro == "") {
           if ($u->logar($email, $senha)) {
-            header("locaation: AreaPrivada.php");
+            header("location: AreaPrivada.php");
           }else {
             ?>
               <div class="msg-erro">
